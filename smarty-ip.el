@@ -56,13 +56,27 @@
 ;;     get ip-info by interacting with the system.the simplest way to get ip but I don't recommend you use it directly.you should use this `smarty-ip'
 ;;
 
+;;; FAQ:
+;; - Q:The API address provided by smarty-ip can not satisfy my requirement.How to use other ip location API?
+;;   A:Absolutely,it’s OK. You just need to do as the following steps:
+;;     Access the path smarty-configure,e.g:
+;;        cd ~/.emacs.d/smarty/configure/
+;;     based on a basic language,e.g:
+;;        cp smarty-ip-en.el smarty-ip-local.el
+;;     clear up the existent language package,e.g:
+;;        rm smarty-ip-en.el
+;; - Q:What is "smarty-package" mentioned many times in the article?
+;;   A:Smarty-package is extention of emacs.
+;;     I planned to release it after all the tool package being packed up.
+;;     But these days our company are holding a programme contest
+;;     and smarty-ip is the production of this contest. So I release it ahead of schedule .
+
+
 ;;; ToDo:
 ;; - add replace ip to city in buffer
 ;; - extend return-message format, let it can allow user-define.
 ;; - allow translate the result to user-prefer
 
-
-;;; FAQ:
 
 
 
