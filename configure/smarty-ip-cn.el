@@ -1,11 +1,11 @@
-(defcustom smarty-ip-fail-node "cityName"
+(defcustom smarty-ip-fail-node "result"
   "Failed Node,if this node get invalid data.the result will be treate as fail."
   :type "symbol")
 
-(defcustom smarty-ip-fail-value "-"
+(defcustom smarty-ip-fail-value "0"
   "Failed value match.")
 
-(defcustom smarty-ip-api "http://api.ipinfodb.com/v3/ip-city/?key=42545cc51c9d9069a7eef4373cbee9bacb1eb4e1ff6c28ee96840f85b2dd4c49&format=xml&ip="
+(defcustom smarty-ip-api "http://ipquery.sdo.com/getipinfo.php?ip="
   "ip location sevice api url."
   :group 'smarty-ip)
 
@@ -14,11 +14,11 @@
   :group 'smarty-ip)
 
 
-(defcustom smarty-ip-city-name "cityName"
+(defcustom smarty-ip-city-name "city"
   "city name"
   :group 'smarty-ip)
 
-(defcustom smarty-ip-country-name "countryName"
+(defcustom smarty-ip-country-name "country"
   "country name"
   :group 'smarty-ip)
 
@@ -31,11 +31,11 @@
   :group 'smarty-ip)
 
 
-(defcustom smarty-ip-msg-findout "ip %s found，city %s."
+(defcustom smarty-ip-msg-findout "ip %s 检索成功，所属城市为 %s。"
   "ip convert display locale"
   :group 'smarty-ip)
 
-(defcustom smarty-ip-msg-notfind "ip %s not found."
+(defcustom smarty-ip-msg-notfind "ip %s 检索失败，未找到相关信息。"
   "ip convert display locale"
   :group 'smarty-ip)
 
