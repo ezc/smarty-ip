@@ -4,7 +4,7 @@
 
 ;; Author: Breeze.Kay <dev@kbonez.net>
 ;; Created: 5 Aug 2011
-;; Version: 0.8.7
+;; Version: 0.8.7_r1
 ;; Keywords: tools
 
 ;; This file is not (yet) part of GNU Emacs.
@@ -26,6 +26,7 @@
 ;; Boston, MA 02110-1301, USA.
 
 ;;; Change Log:
+;;  8 Aug 2011 - fix a document bug
 ;;  7 Aug 2011 - add user-config feature
 ;;  6 Aug 2011 - Separate config code and function code
 ;;  5 Aug 2011 - Rebuild this programe,Separate some function can be used in other programes
@@ -51,9 +52,9 @@
 ;;
 ;; functions you may want to use:
 ;; M-x smarty-ip-interactive
-;;    `smarty-ip-interactive' advanced version,if user active mark,the programe will try to search region,if not,it will be try to search current-point to line-end.
-;; M-x smarty-ip
 ;;     get ip-info by interacting with the system.the simplest way to get ip but I don't recommend you use it directly.you should use this `smarty-ip'
+;; M-x smarty-ip
+;;    `smarty-ip-interactive' advanced version,if user active mark,the programe will try to search region,if not,it will be try to search current-point to line-end.
 ;;
 
 ;;; FAQ:
